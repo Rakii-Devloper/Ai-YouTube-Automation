@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI YouTube Automation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to AI YouTube Automation</h1>
+        <form>
+            <label for="channelName">Channel Name:</label>
+            <input type="text" id="channelName" name="channelName" required>
+            
+            <label for="contentStyle">Content Style / Sample URLs:</label>
+            <textarea id="contentStyle" name="contentStyle" required></textarea>
+            
+            <label for="youtubeAccess">YouTube Access Details:</label>
+            <input type="text" id="youtubeAccess" name="youtubeAccess" required>
+
+            <label for="dailyReport">Receive Daily Reports via Email:</label>
+            <input type="email" id="dailyReport" name="dailyReport" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
